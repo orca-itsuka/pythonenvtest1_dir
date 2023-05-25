@@ -4,7 +4,7 @@
   - [ローカル開発環境](#ローカル開発環境)
     - [Pythonのバージョン](#pythonのバージョン)
     - [VSCode](#vscode)
-      - [Extention](#extention)
+      - [Extension](#extension)
       - [スニペットを使ったヘッダーの挿入](#スニペットを使ったヘッダーの挿入)
     - [リンタ・フォーマッタ](#リンタフォーマッタ)
     - [Pylanceのセットアップ](#pylanceのセットアップ)
@@ -192,4 +192,3 @@ def f(num1: int, my_float: float = 3.5) -> float:
 ### TypeHintsの注意点
 
 Python3.9以上ではTypeHintsとして組み込み関数が使用できます。Python3.7, 3.8で開発を行う場合は互換性を担保するために[futureクラス](https://docs.python.org/3.8/library/__future__.html)を使いましょう。例えば、`typing.Union[int,float]`は`int|float`と書けます。また`typing.List[int]`も`list[int]`と書くことができます。
-
